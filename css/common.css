@@ -12,3 +12,44 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+/* Gallery */
+
+.gallery{
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  background-color:#FFFFFF;
+}
+
+li {
+  width: 200px;           
+  height: 200px;          
+  list-style-type: none;
+}
+
+.item > img {
+  width: 100%;           
+  height: 100%;           
+  object-fit: cover;     
+  display: block;
+}
+
+/*
+li{
+  max-width: 200px;
+  height: auto;
+  list-style-type: none;
+}
+
+.item > img{
+  width: 100%;
+   height: 100%;
+   object-fit: cover;
+   display: block;
+
+}     
+*/

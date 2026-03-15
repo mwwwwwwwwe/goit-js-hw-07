@@ -7,21 +7,26 @@
     <title>Task 4</title>
     <link rel="stylesheet" href="./css/common.css" />
   </head>
-  <body>
+  
+   <body>
     <p><a href="./index.html">Go back</a></p>
 
     <form class="login-form">
-      <label>
-        Email
-        <input type="email" name="email" />
+      <label class="login-form__label">
+        <span class="login-form__label-text">Email</span>
+        <input type="email" name="email" class="login-form__input" placeholder="Email" />
       </label>
-      <label>
-        Password
-        <input type="password" name="password" />
+      
+      <label class="login-form__label">
+        <span class="login-form__label-text">Password</span>
+        <input type="password" name="password" class="login-form__input" placeholder="Password" />
       </label>
-      <button type="submit">Login</button>
+      
+      <button type="submit" class="login-form__button">Log in</button>
     </form>
 
     <script src="./js/task-4.js" type="module"></script>
+
   </body>
+
 </html>
